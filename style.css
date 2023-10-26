@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&family=Quicksand:wght@600&display=swap');
+
+
+body{
+    background-color: rgb(68, 184, 234);
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.div1{
+   margin-left: 50px;
+}
+.box{
+    width: 60px;
+    height: 70px;
+    text-align: center;
+    font-weight: 600;
+    font-size: larger;
+    border-radius: 20%;
+    border: none;
+    background-color: rgb(178, 227, 242);
+    color : rgb(0, 0, 0);
+}
+.box:hover {
+    background-color:rgb(9, 184, 238) ;
+    color: white;
+    box-shadow: 0px 0px 2px 2px rgb(12, 87, 87);
+
+}
+
+.heading{
+    font-weight: 600;
+    font-size: 20pt;
+}
+.output{
+    display: flex;
+    font-weight: 900;
+    font-size: 30pt;
+}
+.status{
+    display: flex;
+    font-weight: 900;
+    font-size: 20pt;
+}
+.btn{
+    display: flex;
+    border: none;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20pt;
+    width: 250px;
+    border-radius: 30%;
+    border: none;
+    background-color: rgb(178, 227, 242);
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    transition-duration: 0.4s ;
+}
+.btn:hover {
+    background-color:#28A9BD ;
+    color: white;
+    box-shadow: 0px 0px 2px 2px rgb(12, 87, 87);
+
+}
